@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/rooobot/protoc-gen-zrpc/generator"
 	pb "github.com/golang/protobuf/protoc-gen-go/descriptor"
+	"github.com/rooobot/protoc-gen-zrpc/generator"
 )
 
 // Paths for packages used by code generated in this file,
