@@ -86,7 +86,7 @@ func main() {
 
 	g.GenerateAllFiles()
 
-	// Send back tha result
+	// Send back the results.
 	data, err = proto.Marshal(g.Response)
 	if err != nil {
 		g.Error(err, "failed to marshal output proto")
